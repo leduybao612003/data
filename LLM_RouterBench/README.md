@@ -78,7 +78,7 @@ Dùng sẵn `prd51_eval/*.jsonl`, replay `origin_query` qua
 - Slice `05_provider_failure`: tiêm `fault_plan` (timeout/429/5xx/unavailable)
   rồi đo fallback success rate (≥ 95%).
 
-## 7. Đo latency concurrent (cách B đã chốt)
+## 7. Đo latency concurrent
 
 - Baseline `concurrency=1`, rồi `8/32`; mỗi mức lặp 3 lần.
 - Đo provider thật: `force_override_cache=true`; đo prod có cache: `false`.
