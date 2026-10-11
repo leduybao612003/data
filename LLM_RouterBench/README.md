@@ -10,13 +10,13 @@ Bench LLMRouterBench cho eval PRD-5.1
 
 ## Yêu cầu
 
-- Python 3.10+ (máy hiện tại 3.13 OK), MySQL **optional** (chỉ cho cache).
+- Python 3.10+, MySQL **optional** (chỉ cho cache).
 - API key provider (khuyến nghị `OPENROUTER_API_KEY` vì 1 key gọi nhiều model). → Chuyển sang dùng Key từ gateway
 
 ## 1. Cài đặt (PowerShell)
 
 ```powershell
-cd E:\data\_src
+
 python -m venv .venv; .\.venv\Scripts\Activate.ps1
 pip install -r requirements.txt
 Copy-Item .env.example .env   # mở .env điền key
