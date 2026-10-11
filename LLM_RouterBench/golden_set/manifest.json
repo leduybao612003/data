@@ -1,0 +1,210 @@
+{
+  "seed_note": "deterministic: sort by (-quality, content_hash), round-robin theo sub-category",
+  "per_slice": 36,
+  "slices": [
+    {
+      "slice": "01_common_tasks",
+      "count": 36,
+      "sub_category_coverage": {
+        "MMLUPro/test.json": [
+          "category:biology",
+          "category:business",
+          "category:chemistry",
+          "category:computer",
+          "category:economics",
+          "category:engineering",
+          "category:health",
+          "category:history",
+          "category:law",
+          "category:math",
+          "category:other",
+          "category:philosophy",
+          "category:physics",
+          "category:psychology"
+        ],
+        "bbh/test.json": [
+          "subset:boolean_expressions",
+          "subset:causal_judgement",
+          "subset:date_understanding",
+          "subset:disambiguation_qa",
+          "subset:dyck_languages",
+          "subset:formal_fallacies",
+          "subset:geometric_shapes",
+          "subset:hyperbaton",
+          "subset:logical_deduction_five_objects",
+          "subset:logical_deduction_seven_objects",
+          "subset:logical_deduction_three_objects",
+          "subset:movie_recommendation",
+          "subset:multistep_arithmetic_two",
+          "subset:navigate",
+          "subset:object_counting",
+          "subset:penguins_in_a_table",
+          "subset:reasoning_about_colored_objects",
+          "subset:ruin_names"
+        ]
+      }
+    },
+    {
+      "slice": "02_cost_sensitive",
+      "count": 36,
+      "sub_category_coverage": {
+        "arc_c/arc_test.json": [
+          "other"
+        ],
+        "winogrande/valid.json": [
+          "winogrande"
+        ]
+      }
+    },
+    {
+      "slice": "03_hard_policy",
+      "count": 36,
+      "sub_category_coverage": {
+        "FinQA/test.json": [
+          "finqa"
+        ],
+        "MedQA/test.json": [
+          "other"
+        ]
+      }
+    },
+    {
+      "slice": "04_ambiguous_missing_metadata",
+      "count": 36,
+      "sub_category_coverage": {
+        "GPQA/gpqa_diamond.json": [
+          "subdomain:Astrophysics",
+          "subdomain:Chemistry",
+          "subdomain:Electromagnetism",
+          "subdomain:Genetics",
+          "subdomain:High-energy",
+          "subdomain:Inorganic",
+          "subdomain:Molecular",
+          "subdomain:Optics",
+          "subdomain:Organic",
+          "subdomain:Physics",
+          "subdomain:Quantum",
+          "subdomain:Relativistic"
+        ],
+        "GPQA/gpqa_main.json": [
+          "subdomain:Astrophysics",
+          "subdomain:Chemistry",
+          "subdomain:Condensed",
+          "subdomain:Electromagnetism",
+          "subdomain:Genetics",
+          "subdomain:High-energy",
+          "subdomain:Molecular",
+          "subdomain:Organic",
+          "subdomain:Physics",
+          "subdomain:Quantum",
+          "subdomain:Statistical"
+        ]
+      }
+    },
+    {
+      "slice": "05_provider_failure",
+      "count": 36,
+      "sub_category_coverage": {
+        "HumanEval/HumanEval.jsonl": [
+          "entry_point:add",
+          "entry_point:add_elements",
+          "entry_point:all_prefixes",
+          "entry_point:anti_shuffle",
+          "entry_point:any_int",
+          "entry_point:below_threshold",
+          "entry_point:below_zero",
+          "entry_point:bf",
+          "entry_point:by_length",
+          "entry_point:can_arrange",
+          "entry_point:change_base",
+          "entry_point:check_dict_case",
+          "entry_point:check_if_last_char_is_a_letter",
+          "entry_point:choose_num",
+          "entry_point:common",
+          "entry_point:compare",
+          "entry_point:concatenate",
+          "entry_point:correct_bracketing"
+        ],
+        "KORBench/operation/sample.jsonl": [
+          "rule_id:1",
+          "rule_id:10",
+          "rule_id:11",
+          "rule_id:12",
+          "rule_id:13",
+          "rule_id:14",
+          "rule_id:15",
+          "rule_id:16",
+          "rule_id:17",
+          "rule_id:18",
+          "rule_id:19",
+          "rule_id:2",
+          "rule_id:20",
+          "rule_id:21",
+          "rule_id:22",
+          "rule_id:23",
+          "rule_id:24",
+          "rule_id:25"
+        ]
+      }
+    },
+    {
+      "slice": "06_adversarial",
+      "count": 36,
+      "sub_category_coverage": {
+        "K_and_K/test/people2_num100.jsonl": [
+          "other"
+        ],
+        "K_and_K/test/people3_num100.jsonl": [
+          "other"
+        ]
+      }
+    },
+    {
+      "slice": "07_long_tail",
+      "count": 36,
+      "sub_category_coverage": {
+        "KORBench/logic/sample.jsonl": [
+          "rule_id:1",
+          "rule_id:10",
+          "rule_id:11",
+          "rule_id:12",
+          "rule_id:13",
+          "rule_id:14",
+          "rule_id:15",
+          "rule_id:16",
+          "rule_id:17",
+          "rule_id:18",
+          "rule_id:19",
+          "rule_id:2",
+          "rule_id:20",
+          "rule_id:21",
+          "rule_id:22",
+          "rule_id:23",
+          "rule_id:24",
+          "rule_id:25"
+        ],
+        "KORBench/puzzle/sample.jsonl": [
+          "rule_id:1",
+          "rule_id:10",
+          "rule_id:11",
+          "rule_id:12",
+          "rule_id:13",
+          "rule_id:14",
+          "rule_id:15",
+          "rule_id:16",
+          "rule_id:17",
+          "rule_id:18",
+          "rule_id:19",
+          "rule_id:2",
+          "rule_id:20",
+          "rule_id:21",
+          "rule_id:22",
+          "rule_id:23",
+          "rule_id:24",
+          "rule_id:25"
+        ]
+      }
+    }
+  ],
+  "total": 252
+}

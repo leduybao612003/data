@@ -1,0 +1,25 @@
+{
+  "source": "public-test.jsonl (9141 rows, v2026.03.28)",
+  "seed": 2026,
+  "total": 50,
+  "rule": "11 domain x4 + 2 domain nho nhat (mathematics, physics) x3; bo Safety; chi cau co choices/function",
+  "by_domain": {
+    "psychology": 4,
+    "computer_science": 4,
+    "agentic": 4,
+    "literature": 4,
+    "dialect": 4,
+    "mathematics": 3,
+    "philosophy": 4,
+    "laws": 4,
+    "logics": 4,
+    "culture": 4,
+    "chemistry": 4,
+    "physics": 3,
+    "medicine": 4
+  },
+  "tracks": {
+    "knowledge_choice": 46,
+    "agentic_function": 4
+  }
+}

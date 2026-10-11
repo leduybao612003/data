@@ -1,0 +1,108 @@
+{
+  "repo": "https://github.com/ynulihao/LLMRouterBench",
+  "commit": "c77cb0506949d8f959e97967d2fefca0e8ff1b05",
+  "seed": 42,
+  "per_slice": 200,
+  "slices": [
+    {
+      "slice": "01_common_tasks",
+      "sources": [
+        {
+          "file": "MMLUPro/test.json",
+          "n": 100
+        },
+        {
+          "file": "bbh/test.json",
+          "n": 100
+        }
+      ],
+      "count": 200
+    },
+    {
+      "slice": "02_cost_sensitive",
+      "sources": [
+        {
+          "file": "arc_c/arc_test.json",
+          "n": 100
+        },
+        {
+          "file": "winogrande/valid.json",
+          "n": 100
+        }
+      ],
+      "count": 200
+    },
+    {
+      "slice": "03_hard_policy",
+      "sources": [
+        {
+          "file": "MedQA/test.json",
+          "n": 100
+        },
+        {
+          "file": "FinQA/test.json",
+          "n": 100
+        }
+      ],
+      "count": 200
+    },
+    {
+      "slice": "04_ambiguous_missing_metadata",
+      "sources": [
+        {
+          "file": "GPQA/gpqa_diamond.json",
+          "n": 100
+        },
+        {
+          "file": "GPQA/gpqa_main.json",
+          "n": 100
+        }
+      ],
+      "count": 200
+    },
+    {
+      "slice": "05_provider_failure",
+      "sources": [
+        {
+          "file": "HumanEval/HumanEval.jsonl",
+          "n": 100
+        },
+        {
+          "file": "KORBench/operation/sample.jsonl",
+          "n": 100
+        }
+      ],
+      "count": 200
+    },
+    {
+      "slice": "06_adversarial",
+      "sources": [
+        {
+          "file": "K_and_K/test/people2_num100.jsonl",
+          "n": 100
+        },
+        {
+          "file": "K_and_K/test/people3_num100.jsonl",
+          "n": 100
+        }
+      ],
+      "count": 200
+    },
+    {
+      "slice": "07_long_tail",
+      "sources": [
+        {
+          "file": "KORBench/logic/sample.jsonl",
+          "n": 100
+        },
+        {
+          "file": "KORBench/puzzle/sample.jsonl",
+          "n": 100
+        }
+      ],
+      "count": 200
+    }
+  ],
+  "provenance_note": "All rows sampled from repo data/ files only; no synthetic queries.",
+  "total": 1400
+}
